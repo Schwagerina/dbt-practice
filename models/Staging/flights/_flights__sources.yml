@@ -1,0 +1,17 @@
+sources:
+  - name: demo_src
+    decription: "Данные из БД Авиаперелетов"
+    tables:
+      - name: aircrafts
+        decription: "Модели самолетов"
+        columns:
+          - name: aircraft_code
+            decription: "Код модели самолета"
+          - name: model
+            decription: "Название модели самолета"
+          - name: range
+            decription: "ХЗ"
+      - name: airports
+        decription: Аэропорты
+      - name: seats
+        decription: Места в самолетах
